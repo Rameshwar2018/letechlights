@@ -1663,37 +1663,20 @@ select.mobile-device {
     opacity: 0;
 }
 
-
-/*# sourceMappingURL=bootstrap-select.css.map */
-
-.bootstrap-select > .btn {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    font-size: 15px;
-    height: 33px;
-    box-shadow: none !important;
-    border: 0 !important;
-    padding: 0;
-    width: 100%;
-    color: #bcbcbc !important;
-}
-
-.contact_form {
-    border: 1px solid #ededed;
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5;
-    padding: 40px 30px;
+.contact_form{
+    box-shadow: #21759b;
+    box-sizing: border-box;
+    -moz-box-align: center;
 }
 
 .contact_form .form-control {
     background-color: #fff;
-    margin-bottom: 30px;
-    border: 1px solid #ebebeb;
+    border: 1px solid #161616;
     box-sizing: border-box;
-    color: #bcbcbc;
+    color: #000;
     font-size: 16px;
     outline: 0 none;
-    padding: 10px 25px;
-    height: 55px;
+    height: 45px;
     resize: none;
     box-shadow: none !important;
     width: 100%;
@@ -1722,13 +1705,158 @@ select.mobile-device {
     background: url(images/bg.png) no-repeat center center #fff;
 }
 
+/*------------------------------------------------------------------
+    CARREER
+-------------------------------------------------------------------*/
+.job-board{
+    background-color: #fff;
+    height: 10vh;
+}
 
+#FormSection {
+    background: url(https://images.pexels.com/photos/683940/pexels-photo-683940.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  #FormSection .form-area {
+    border: 15px solid rgba(255, 255, 255, 0.4);
+    border-radius: 0.55rem;
+  }
+  #FormSection .form-area .inside {
+    padding: 2rem 1rem;
+    background: #fff;
+  }
+  #FormSection .form-area button {
+    background: #250443;
+    background: linear-gradient(90deg, #250443 0%, #430979 35%, #ff00fe 100%);
+    color: #fff;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #FormSection .form-area button:hover {
+    background: #400773;
+    background: linear-gradient(90deg, #400773 0%, #660eb8 35%, #ff00fe 100%);
+  }
+  
+  #CardsSection {
+    padding: 75px 0;
+  }
+  #CardsSection a {
+    text-decoration: none;
+  }
+  #CardsSection a .card {
+    border-radius: 1rem;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 0 10px #e9ecef;
+    cursor: pointer;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #CardsSection a .card:hover {
+    box-shadow: 0 0 20px #dae0e5;
+  }
+  #CardsSection a .card:hover i {
+    color: #250443;
+  }
+  #CardsSection a .card i {
+    color: #6c757d;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #CardsSection a .card h5 {
+    color: #344767;
+    font-size: 1rem;
+  }
+  #CardsSection a .card p {
+    color: #86919b;
+  }
+  
+  #ResultsSection .card {
+    border-radius: 1rem;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 0 10px #e9ecef;
+    cursor: pointer;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #ResultsSection .card:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  #ResultsSection .card.job-listings-item .job-employer-logo img {
+    border-radius: 8px;
+    max-width: 100%;
+    width: 56px;
+    max-height: 80px;
+  }
+  #ResultsSection .card.job-listings-item .job-details-group .job-tags a {
+    display: inline-block;
+    border: 1px solid #dee2e6;
+    padding: 0.25rem 0.55rem;
+    border-radius: 0.55rem;
+    color: #343a40;
+    text-decoration: none;
+  }
+  #ResultsSection .card.job-listings-item .job-details-group .job-tags a:not(:last-child) {
+    margin-right: 1rem;
+  }
+  #ResultsSection .card.job-listings-item .job-details-group .job-details .job-details-content {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  #ResultsSection .card.job-listings-item .job-details-group .job-details .job-details-content li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  #ResultsSection .card .btn {
+    display: none;
+    background: #250443;
+    background: linear-gradient(90deg, #250443 0%, #430979 35%, #ff00fe 100%);
+    color: #fff;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #ResultsSection .card .btn:hover {
+    background: #400773;
+    background: linear-gradient(90deg, #400773 0%, #660eb8 35%, #ff00fe 100%);
+  }
+  #ResultsSection .card:hover {
+    box-shadow: 0 0 20px #dae0e5;
+  }
+  #ResultsSection .card:hover .job-posted-date {
+    display: none;
+  }
+  #ResultsSection .card:hover .btn {
+    display: initial;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
 /*------------------------------------------------------------------
     FOOTER
 -------------------------------------------------------------------*/
 
 .cac {
-    background-color: #232323;
+    background-color: #030101;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -1755,8 +1883,8 @@ select.mobile-device {
 
 .footer {
     padding: 90px 0 80px !important;
-    color: #999;
-    background-color: #393939;
+    color: #fff;
+    background-color: #000000;
 }
 
 .footer .widget-title {
@@ -1766,7 +1894,7 @@ select.mobile-device {
 }
 
 .footer .widget-title small {
-    color: #999;
+    color: #fff;
     display: block;
     padding: 0 58px;
     text-transform: uppercase;
@@ -1787,7 +1915,7 @@ select.mobile-device {
 }
 
 .footer-links a {
-    color: #999;
+    color: #fff;
 	display: block;
 }
 
@@ -1814,7 +1942,7 @@ select.mobile-device {
     margin-bottom: 10px;
     display: block;
     width: 100%;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    border-bottom: 1px dashed #fff;
     padding-bottom: 10px;
 }
 
@@ -1842,12 +1970,12 @@ select.mobile-device {
 }
 
 .copyrights {
-    border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    border-top: 1px dashed #fff;
+    background-color: #000;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    padding: 50px 60px;
+    padding: 35px 50px;
     overflow: hidden;
 }
 
@@ -1875,7 +2003,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: #fff;
     padding: 0;
 }
 

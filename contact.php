@@ -9,13 +9,13 @@ function isEmail($email) {
 
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
-$first_name     = $_POST['first_name'];
-$last_name     = $_POST['last_name'];
-$email    = $_POST['email'];
-$phone   = $_POST['phone'];
-$subject  = $_POST['subject'];
+$first_name = $_POST['first_name'];
+$last_name = $_POST['last_name'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$subject = $_POST['subject'];
 $comments = $_POST['comments'];
-$verify   = $_POST['verify'];
+$verify = $_POST['verify'];
 
 if(trim($first_name) == '') {
 	echo '<div class="error_message">Attention! You must enter your name.</div>';
